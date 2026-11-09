@@ -58,7 +58,7 @@
 - Пиши короткими, грамматически корректными предложениями, понятными заказчику.
 - При наличии идентификатора задачи начинай запись с него: `TASK-123 — Implemented Apex validation logic and updated the Flow.`
 - Описывай конкретную работу и результат, а не намерение или общее название активности.
-- Для встреч указывай участие и цель/контекст: `Status Calls — Participated in Sprint Daily meeting.`
+- Для каждой встречи обязательно начинай сообщение с `Status Calls —`, затем указывай участие и цель/контекст: `Status Calls — Participated in Sprint Daily meeting.` Не используй название встречи как самостоятельную категорию.
 - Если коммитов нет, для задачи из Jira `IN PROGRESS` используй конкретную запись о подготовке или требованиях, например: `TASK-123 — Reviewed implementation requirements for the payment validation update.`
 
 ## Запрещённые формулировки
