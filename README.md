@@ -1,10 +1,17 @@
 # Versions
 
+### Version 1.1.1
+
+- Update minimal hours per log
+
+---
+
 ### Version 1.1.0
 
 - Added salesforce connection and change hours format
 
 ---
+
 ### Version 1.0.4
 
 - Added logs.json to gitignore
