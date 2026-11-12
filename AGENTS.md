@@ -17,14 +17,6 @@
 - Microsoft Teams Calendar: `aleksandr.zanko@corpay.com`
 - Git: `aleksandr.zanko@fleetcor.com`
 
-## Подключение к Salesforce
-
-- Salesforce CLI org alias: `enway`.
-- Username: `aleksandr.zanko@enway.com.employee`.
-- My Domain URL для CLI: `https://enway.my.salesforce.com`.
-- Для CLI-команд всегда указывай `--target-org enway`, например: `sf data query --target-org enway --query "SELECT Id FROM Account LIMIT 1"`.
-- Используй Salesforce CLI для чтения и проверки данных, когда это возможно. Для создания или изменения Time Logs используй интерфейс Salesforce только после явного подтверждения пользователя непосредственно перед сохранением.
-
 ## Сбор данных
 
 - Анализируй коммиты автора `aleksandr.zanko@fleetcor.com` за текущий день во всех трёх репозиториях: сообщения, время, изменённые файлы и суть изменений.
@@ -85,3 +77,17 @@
 - Проверь, что каждая запись относится к одной активности и написана на английском языке в прошедшем времени.
 - Проверь, что продолжительность каждой записи составляет не менее `"0.50"` часа.
 - Проверь, что итог часов за каждый день равен ровно `8.00`.
+
+## Подключение к Salesforce
+
+- Salesforce CLI org alias: `enway`.
+- Username: `aleksandr.zanko@enway.com.employee`.
+- My Domain URL для CLI: `https://enway.my.salesforce.com`.
+- Для CLI-команд всегда указывай `--target-org enway`, например: `sf data query --target-org enway --query "SELECT Id FROM Account LIMIT 1"`.
+- Используй Salesforce CLI для чтения и проверки данных, когда это возможно. Для создания или изменения Time Logs используй интерфейс Salesforce без дополнительного подтверждения пользователя.
+
+## Синхронизация Time Logs с Salesforce
+
+- После успешного подключения к `enway` сразу переноси на страницу [Time Logs](https://enway.lightning.force.com/lightning/n/Time_Logs) все созданные или обновлённые в `logs.json` записи за текущую дату. Перед переносом проверяй, что эквивалентная запись ещё не существует, чтобы избежать дублей.
+- Если не удалось подключиться к `enway` или создать хотя бы одну нужную запись Time Log, обязательно указывай причину проблемы в итоговом ответе.
+

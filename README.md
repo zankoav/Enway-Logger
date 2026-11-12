@@ -1,5 +1,11 @@
 # Versions
 
+### Version 1.2.0
+
+- Automate Salesforce time log sync
+
+---
+
 ### Version 1.1.1
 
 - Update minimal hours per log
