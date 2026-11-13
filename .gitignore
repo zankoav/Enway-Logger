@@ -1,3 +1,6 @@
 ./logs.json
 logs.json
 .sf
+.forceignore
+sfdx-project.json
+./force-app

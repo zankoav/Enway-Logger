@@ -1,5 +1,9 @@
 # Versions
 
+### Version 2.0.0
+
+- Switch Time Logs sync to Salesforce CLI
+
 ### Version 1.2.0
 
 - Automate Salesforce time log sync
